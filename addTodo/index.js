@@ -14,6 +14,7 @@ const handler = async ({ req, res }) => {
         msg: 'Health check success',
       })
     }
+    
 
     const DB_FILE = path.resolve('../db.json')
     const inmemDB = getDB(DB_FILE)
