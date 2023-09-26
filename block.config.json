@@ -1,0 +1,36 @@
+{
+  "name": "todo_sept_26",
+  "type": "package",
+  "source": {
+    "https": "https://github.com/joyalneo/todo_sept_26.git",
+    "ssh": "git@github.com:joyalneo/todo_sept_26.git",
+    "branch": "block_todo_sept_26"
+  },
+  "dependencies": {
+    "removeTodo": {
+      "directory": "removeTodo"
+    },
+    "addTodo": {
+      "directory": "addTodo"
+    },
+    "listTodos": {
+      "directory": "listTodos"
+    },
+    "todoInput": {
+      "directory": "todoInput"
+    },
+    "todoItem": {
+      "directory": "todoItem"
+    },
+    "todoContainer": {
+      "directory": "todoContainer"
+    }
+  },
+  "blockId": "OUw-nJJ-tAZJQ_osUBsoy",
+  "parentBlockIDs": [],
+  "isPublic": true,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "repoType": "mono"
+}
